@@ -178,3 +178,6 @@ mobile/ios/bundle_id.local
 # secrets as public -- but GitHub's secret scanning flags it, so it is kept out
 # of the repository and injected into release builds instead.
 /cloud_clients.lua
+
+# Claude Code personal settings. Can contain secrets from commands you approve.
+.claude/settings.local.json
